@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оверлорд </title>
+    <style>
+        /* Вставка фона для всей страницы */
+        body {
+            font-family: Arial, sans-serif;
+            color: red;
+            background-image: url('https://avatars.mds.yandex.net/i?id=67bb1972f28c7880f79c39b75864be201cb05f3c-7462545-images-thumbs&n=13'); /* Замените на ссылку на ваш фон */
+            background-size: cover; /* Фон будет растянут на весь экран */
+            background-position: center; /* Фон по центру */
+            height: 100vh; /* Страница будет занимать 100% высоты окна */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Расположить элементы сверху и снизу */
+            align-items: center; /* Горизонтальное центрирование */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        /* Текст */
+        p {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        /* Контейнер для кнопок */
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Расположение кнопок справа и слева */
+            width: 60%; /* Уменьшаем ширину контейнера кнопок */
+            margin-top: 50px;
+        }
+
+        /* Стили для ссылок (кнопок) */
+        a {
+            font-size: 1.5em;
+            color: #ff9f00; /* Цвет текста кнопки */
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.7);  /* Цвет фона кнопки */
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            width: 45%; /* Ширина каждой кнопки */
+            text-align: center;
+        }
+
+        /* Эффект при наведении */
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <h1> Новые горизонты</h1>
+    <p>Ваши действия теперь приведут вас к решению, которое будет зависеть от нового подхода.</p>
+
+    <p>1. Попробовать активировать старые альянсы.</p>
+    <p>2. Узнать планы ближайших соратников.</p>
+
+    <!-- Контейнер для кнопок, расположенных справа и слева -->
+    <div class="button-container">
+        <a href="ending_1.html">Активировать альянс</a>
+        <a href="ending_2.html">Изучить планы</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оверлорд </title>
+    <style>
+        /* Вставка фона */
+        body {
+            font-family: Arial, sans-serif;
+            color: red;
+            background-image: url('https://avatars.mds.yandex.net/get-mpic/1923211/img_id5729260751835849328.jpeg/orig'); /* Вставьте URL изображения для фона */
+            background-size: cover; /* Фон будет покрывать всю страницу */
+            background-position: center; /* Центрирование фона */
+            height: 100vh; /* Высота страницы - на весь экран */
+            display: flex; /* Использование flexbox для разметки */
+            flex-direction: column; /* Вертикальное выравнивание */
+            justify-content: space-between; /* Расстояние между элементами: сверху, в центре и снизу */
+            align-items: center; /* Центрирование по горизонтали */
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        /* Текст */
+        p {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        /* Контейнер для кнопок */
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Кнопки слева и справа */
+            width: 60%; /* Ширина для удобного отображения */
+            margin-top: 50px;
+        }
+
+        /* Стили для ссылок (кнопок) */
+        a {
+            font-size: 1.5em;
+            color: #ff9f00; /* Цвет кнопок */
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.7);  /* Темный фон кнопок */
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            width: 45%; /* Ширина кнопки */
+            text-align: center;
+        }
+
+        /* Эффект при наведении на кнопки */
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <h1> Вы должны принять решение.</h1>
+    <p>Вы – Айнц Ооал Гоун. Мировой владыка. Как вам поступить с прибывшими врагами?</p>
+
+    <p>1. Сражаться с ними.</p>
+    <p>2. Поговорить с ними и установить контроль.</p>
+
+    <!-- Контейнер для кнопок -->
+    <div class="button-container">
+        <a href="page_2.html">Сражаться с врагами</a>
+        <a href="page_3.html">Попробовать установить мир</a>
+    </div>
+</body>
+</html>

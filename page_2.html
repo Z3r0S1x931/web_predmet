@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оверлорд </title>
+    <style>
+        /* Вставка фона */
+        body {
+            font-family: Arial, sans-serif;
+            color: red;
+            background-image: url('https://avatars.mds.yandex.net/i?id=ce3bf0a722378b691bdff6f4a2dddc5d4afd532a-12508201-images-thumbs&n=13'); /* Замените на ваш URL фона */
+            background-size: cover; /* Фон будет растянут на весь экран */
+            background-position: center; /* Фон будет по центру */
+            height: 100vh; /* Высота страницы - на весь экран */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Размещение: сверху, в центре и снизу */
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        /* Текст */
+        p {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+
+        /* Контейнер для кнопок */
+        .button-container {
+            display: flex;
+            justify-content: space-between; /* Кнопки слева и справа */
+            width: 60%; /* Ширина кнопок */
+            margin-top: 50px;
+        }
+
+        /* Стили для ссылок (кнопок) */
+        a {
+            font-size: 1.5em;
+            color: #ff9f00; /* Цвет текста кнопки */
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.7);  /* Цвет фона кнопки */
+            padding: 15px 30px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+            width: 45%; /* Ширина кнопок */
+            text-align: center;
+        }
+
+        /* Эффект при наведении на кнопки */
+        a:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <h1> Последствия сражения</h1>
+    <p>Вы победили врагов в эпической битве. Но каждый враг оставил след на вашем империи.</p>
+
+    <p>1. Продолжить контролировать свои земли.</p>
+    <p>2. Посетить главную точку нападения для восстановления.</p>
+
+    <!-- Контейнер для кнопок -->
+    <div class="button-container">
+        <a href="page_4.html">Продолжить контролировать земли</a>
+        <a href="page_5.html">Посетить главную точку нападения</a>
+    </div>
+</body>
+</html>
